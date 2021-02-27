@@ -24,3 +24,8 @@
       transform: translateY(0rem);
     }
   }
+
+  /* for mobile screens */
+@media only screen and (max-width: 750px) {
+    
+}

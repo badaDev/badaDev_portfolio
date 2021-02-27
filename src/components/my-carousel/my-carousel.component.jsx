@@ -7,6 +7,7 @@ import './my-carousel.style.css';
 import ScrollDown from '../scroll-down/scroll-down.component';
 
 
+
 const MyCarousel = () => {
     return (
         <div id="home">
