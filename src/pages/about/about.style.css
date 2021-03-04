@@ -16,3 +16,15 @@
     font-weight: 500;
     color: #231d5af8;
   }
+
+  @media only screen and (max-width: 750px) {
+    .about{
+      background-color: transparent;
+      font-size: 0.9em;
+  }
+
+  .font-details {
+    font-size: 1.5em !important;
+    font-weight: 500;
+  }
+}

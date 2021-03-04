@@ -26,3 +26,14 @@
     font-weight: 500;
     color: #ffffff;
   }
+
+  @media only screen and (max-width: 750px) {
+  .font-details-b {
+    font-size: 1.5em !important;
+    font-weight: 500;
+  }
+
+  .card-title {
+    font-size: 1.3em !important;
+  }
+}

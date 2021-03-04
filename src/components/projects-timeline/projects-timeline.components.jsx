@@ -23,8 +23,8 @@ import L_REACT from "../../assets/img/skills/react.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_MONGODB from "../../assets/img/skills/mongodb.svg";
-import L_GIT from "../../assets/img/skills/git-icon.svg";
+// import L_MONGODB from "../../assets/img/skills/mongodb.svg";
+// import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 
 

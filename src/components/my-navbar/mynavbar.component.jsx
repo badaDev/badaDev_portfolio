@@ -8,7 +8,7 @@ import './mynavbar.style.css';
 const MyNavbar = () => {
     return(
         <div>
-            <Navbar collapseOnSelect fixed="top" expand="md" variant="dark" className="animate-navbar nav-theme justify-content-between">
+            <Navbar collapseOnSelect fixed="top" expand="lg" variant="dark" className="animate-navbar nav-theme justify-content-between">
                 <Navbar.Brand href="#home">
                     <img src={badaDev} alt="badaDev logo" className="logo img-fluid"/>
                 </Navbar.Brand>

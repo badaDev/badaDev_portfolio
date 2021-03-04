@@ -22,7 +22,7 @@ const MyTitleMessage = styled.h1`
       font-size: 50px;
     }
     .sub {
-      font-size: 25px;
+      font-size: 20px;
       letter-spacing: 2px;
     }
   }
@@ -37,7 +37,7 @@ const TitleMessage = () => {
                 Hi, I am
                 <br />
                 <span>
-                    <strong>NURUDEEN OLANREWAJU BADA</strong>
+                    <strong>BADA</strong>
                 </span>
                 </div>
                 <div className="sub">

@@ -25,8 +25,6 @@ const Experience = () => {
                     </div>
                     <div>
                       <Card.Text className="text-center style">
-                        <strong className="body-title-style ">Full Stack Developer</strong>
-                        <br />
                         <strong> Description </strong>
                         <ul className="text-left text-muted">
                           <li><strong>Created &amp; upgraded</strong> different highlights with adaptability choice across web application.</li>

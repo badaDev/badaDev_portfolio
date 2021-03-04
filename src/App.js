@@ -13,15 +13,22 @@ import BgImage from './assets/img/parallex/background.webp'
 import Skills from './pages/skills/skills.components';
 import Experience from './pages/experience/experience.components';
 import Projects from './components/projects-timeline/projects-timeline.components';
+import Contact from './pages/contact-form/contact.components';
+import Footer from './components/footer/footer.components';
+import Particles from 'react-particles-js';
+import { particlesOptions } from "./particlesOption";
 
 
 const App = () => {
   return (
-    <div className="App" style={{ position: "relative" }}>
+    <div style={{ position: "relative" }}>
       <MyNavbar />
       <MyCarousel />
       <TitleMessage />
-
+      <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      />
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
@@ -66,7 +73,23 @@ const App = () => {
               <Projects />
             </Slide>
           </Container>
-        </div>
+      </div>
+
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+            <Contact />
+          </Fade>
+        </Container>
+      </div>
+
+      <div>
+          <Fade duration={500}>
+            <hr />
+            <Footer />
+          </Fade>
+      </div>
     </div>
   );
 }
