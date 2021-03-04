@@ -12,6 +12,7 @@ import Container from 'react-bootstrap/Container'
 import BgImage from './assets/img/parallex/background.webp'
 import Skills from './pages/skills/skills.components';
 import Experience from './pages/experience/experience.components';
+import Projects from './components/projects-timeline/projects-timeline.components';
 
 
 const App = () => {
@@ -50,11 +51,20 @@ const App = () => {
       </div>
 
       <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+            <Experience />
+          </Fade>
+        </Container>
+      </div>
+
+      <div>
           <Container className="container-box rounded">
-            <Fade duration={500}>
+            <Slide bottom duration={500}>
               <hr />
-              <Experience />
-            </Fade>
+              <Projects />
+            </Slide>
           </Container>
         </div>
     </div>
